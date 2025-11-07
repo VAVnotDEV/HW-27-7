@@ -1,6 +1,6 @@
 #include "Logger.h"
 #include <iostream>
-
+#include <thread>
 Logger::Logger()
 {
 	_file.open(_filename, std::ios::in | std::ios::out | std::ios::app);
